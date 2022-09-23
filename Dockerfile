@@ -16,5 +16,3 @@ RUN mv /alnENV/wavelib-master/build/Bin/* /alnENV/fCWT/src/libwavelib&&\
     cd /alnENV/fCWT && mkdir build && cd build && cmake ../ >/dev/null &&\
     make -j >/dev/null && make install >/dev/null &&\
     cp /usr/local/lib/libfCWT*  /usr/lib
-
-
